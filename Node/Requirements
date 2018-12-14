@@ -1,0 +1,12 @@
+create a product table as per below structure
+productId,productName,productCategory,productPrice,starRating
+1. Create a REST API using Express that connects with MongoDB to fetch the data of the avaialble products
+2. This API would return all the products in JSON format.
+
+
+Create a Angular based project as per below guidelines:
+1. Create view on your root html that display the heading of your shopping website, prefferably try to show a caraousel on the same using bootstrap.(Optional)
+2. Create a root component that will hold others component.
+3. create a component product-component that will fetch all the avilable products and would display the same.
+4. A user can select any product by clicking on Add button and the same product would be displayed into a table that is shown
+by the root component.

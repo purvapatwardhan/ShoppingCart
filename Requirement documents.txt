@@ -1,0 +1,61 @@
+
+Task I:
+create a product table as per below structure
+productId,productName,productCategory,productPrice,starRating
+1. Create a REST API using Express that connects with MongoDB to fetch the data of the avaialble products
+2. This API would return all the products in JSON format.
+
+Create a Angular based project as per below guidelines:
+1. Create view on your root html that display the heading of your shopping website, prefferably try to show a caraousel on the same using bootstrap.(Optional)
+2. Create a root component that will hold others component.
+3. create a component product-component that will fetch all the avilable products and would display the same.
+4. A user can select any product by clicking on Add button and the same product would be displayed into a table that is shown
+by the root component.
+
+Task II:
+Create a Shopping Cart application with below requirements:
+1. Your home page should show all the items currently available to purchase.
+2. There should be a filter that can be used to  filter out the items based on category.
+3. We should have Add To Cart button placed beside to items. On the click of
+this button selected item would be added into a cart. displayed 
+4. Your cart should also display the selected item alng with total bill.
+We should have a remove button so that we can remove the selected item anytime.
+5. Implement routing to have multiple links like:
+Checkout - On the click of this button a checkout view would be displayed that will
+display the current cart, also this page will prompt you to enter the details like
+Your Name:
+Billing Address:
+Mobile Number:
+Email ID:
+It will have a Pay button, on the click of which a bill would be sent to your mail id
+using node SMTP concept.
+ContactUs - It will display the contact details of the company which is static in nature
+
+Task III:
+
+Implement Discount & Offers functionality.
+Maintain a table that comprises the latest discount category wise between two dates. 
+If any purchase happens as per the discounts then the discount would be offered on every item of that category.
+
+Implement review and rating functionality.
+A customer can give the rating and reviews and the same could be seen after clicking on particular item.
+
+Implement Sign Up functionality
+
+
+
+TensorFLow
+aws.amazon.com/deplers
+
+Task III:
+Implement Help & Support feature.
+To implement above feature you need to create a separate navigation link that will open a Help & Support window
+based on the category of problem, you would be able to see the questions. you can click on question and create your query
+If there is no question matches with your query you can add your problem statement to send your query.
+You will be having a link within help & support to view your previous query and their status.
+
+We need to create a separate view for the customer support who would be able to view all the pending issues
+CSR can read the issue and can give the resolution
+
+Implment Compare feature so you would be able to see the compare link beside to every product
+whatever product you add into the compare its details would be shown in separate panel along with other product.
